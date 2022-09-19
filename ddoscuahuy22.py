@@ -1043,7 +1043,7 @@ list_ip = [
 ]
 def ddos():
   for ipadr in list_ip:
-ip = sys.argv[1]
+ip = ipadr
 port = sys.argv[2]
 orgip =ip
 
